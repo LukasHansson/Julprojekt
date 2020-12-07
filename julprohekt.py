@@ -1,6 +1,6 @@
 while True:
-    print('[1] Bratcko')
-    print('[2] andra saker')
+    print('[1] Berätelse om tomten')
+    print('[2] Berätelse om Harmanen')
     print('[3] Avbryt')
     choice = int(input('Choice: '))
     if choice == 3:
@@ -8,12 +8,12 @@ while True:
         if confirm.lower() == 'y':
             break
     elif choice == 1:
-        confirm = input('Jul sak 1 Y/N ')
+        confirm = input('Tomten gillar mycket kakor med mjölk Y/N ')
         if confirm.lower() == 'y':
-            print('julklapp')
+            print('tomten äter minst 24 kakor per dygn')
             break
     elif choice == 2:
-        confirm = input('Jul sak 2 Y/N ')
+        confirm = input('Harmanen gillar inte kakor med mjölk Y/N ')
         if confirm.lower() == 'y':
-            print('tomten')
+            print('Harmanen kan inte äta 1 kaka då spyr han')
             break
