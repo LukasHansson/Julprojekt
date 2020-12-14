@@ -17,3 +17,4 @@ while True:
         if confirm.lower() == 'y':
             print('Harmanen kan inte äta 1 kaka då spyr han')
             break
+        #Det här är det jag gjorde 14/12/20
